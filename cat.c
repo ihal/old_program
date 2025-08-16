@@ -8,10 +8,10 @@
 /* ver. YYMMDD Name    Description                    */
 /* ==== ====== ======= ============================== */
 /* 0.1  950731 Hal     for Hobby                      */
-/* 0.2  950803 Hal     ƒTƒCƒo|‚ÌŽd—l‚É‡‚í‚¹‚éB     */
-/* 0.3  950908 Hal     ƒCƒ“ƒeƒ‹ƒwƒNƒT•\Ž¦‹@”\’Ç‰Á     */
-/* 0.4  951113 Hal     OS-9—p,s’[ˆ— CR -> CR+LF    */
-/* 0.4a 951209 Hal     CR CR˜A‘±ˆ—Žž‚ÌC³          */
+/* 0.2  950803 Hal     ã‚µã‚¤ãƒâˆ’ã®ä»•æ§˜ã«åˆã‚ã›ã‚‹ã€‚     */
+/* 0.3  950908 Hal     ã‚¤ãƒ³ãƒ†ãƒ«ãƒ˜ã‚¯ã‚µè¡¨ç¤ºæ©Ÿèƒ½è¿½åŠ      */
+/* 0.4  951113 Hal     OS-9ç”¨,è¡Œç«¯å‡¦ç† CR -> CR+LF    */
+/* 0.4a 951209 Hal     CR CRé€£ç¶šå‡¦ç†æ™‚ã®ä¿®æ­£          */
 /* */
 
 #include <stdio.h>
@@ -23,8 +23,8 @@
 enum boolean {NO,YES};
 
 void		(*filecopy)(
-FILE *ifp,	/* “ü—ÍƒXƒgƒŠ[ƒ€ */
-FILE *ofp	/* o—ÍƒXƒgƒŠ[ƒ€ */
+FILE *ifp,	/* å…¥åŠ›ã‚¹ãƒˆãƒªãƒ¼ãƒ  */
+FILE *ofp	/* å‡ºåŠ›ã‚¹ãƒˆãƒªãƒ¼ãƒ  */
 );
 void		v_filecopy();
 void		t_filecopy();
@@ -335,4 +335,3 @@ void	help_msg(void)
 	exit(0);
 }
 
-

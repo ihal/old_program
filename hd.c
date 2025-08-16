@@ -9,7 +9,7 @@ ver. YYMMDD Name    Description
 ==== ====== ======= ========================
 0.1  950802 Hal     for Hobby
 0.1a 950803 Hal  
-0.2  950917 Hal     Extend Intel Hex format ŽÀŽ²ŽµŽ³Ž¡
+0.2  950917 Hal     Extend Intel Hex format ã‚¿ã‚¤ã‚ªã‚¦ã€‚
 0.2a 950918 Hal  
 */
 
